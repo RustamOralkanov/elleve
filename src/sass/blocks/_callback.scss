@@ -1,0 +1,91 @@
+.callback {
+    padding-top: 30px;
+    &-items {
+        background-color: var(--el-grey);
+        padding: 43px 0 16px 37px;
+        display: flex;
+    }
+    &-item {
+        width: 50%;
+        &:last-child {
+            padding-right: 99px;
+        }
+        &-input {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 8px;
+            width: 100%;
+            &-group {
+                display: flex;
+                justify-content: space-between;
+                .callback-item-input {
+                    padding-right: 20px;
+                    &:last-child {
+                        padding-right: 0;
+                    }
+                }
+            }
+            label {
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 27px;
+            }
+            input {
+                height: 25px;
+                padding: 2px 10px;
+                border: none;
+                border-radius: 5px;
+                width: 100%;
+                &::placeholder {
+                    font-size: 13px;
+                    color: var(--el-grey);
+                }
+            }
+            textarea {
+                margin-bottom: 16px;
+                padding: 10px 10px;
+                resize: none;
+                border: none;
+                border-radius: 5px;
+                height: 120px;
+                &::placeholder {
+                    font-size: 13px;
+                    color: var(--el-grey);
+                }
+            }
+        }
+    }
+    .subtitle {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .text {
+        margin: 16px 0;
+    }
+    &-link {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        img {
+            margin-right: 5px;
+        }
+    }
+    .btn-white {
+        border-radius: 5px;
+    }
+    &-modal {
+        padding: 85px 100px !important;
+        min-width: 650px;
+        &-title {
+            font-size: 36px !important;
+            span {
+                font-size: 24px !important;
+                color: var(--el-dark) !important;
+            }
+        }
+    }
+}

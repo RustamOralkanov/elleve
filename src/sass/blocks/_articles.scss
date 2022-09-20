@@ -1,0 +1,38 @@
+.articles {
+    padding-top: 56px;
+    .title {
+        text-align: center;
+    }
+    &-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    &-card {
+        padding: 44px 28px 27px;
+        background-color: var(--el-grey);
+        margin-right: 60px;
+        text-align: center;
+        width: 305px;
+        height: 372px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &-text {
+            margin-top: 18px;
+            text-align: left;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            height: 81px;
+            overflow: hidden;
+            margin-bottom: 31px;
+        }
+    }
+    .btn-grey {
+        display: block;
+        width: fit-content;
+        margin: 24px auto 0;
+        padding: 3px 50px;
+    }
+}

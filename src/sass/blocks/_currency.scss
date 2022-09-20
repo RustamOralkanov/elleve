@@ -1,0 +1,35 @@
+.currency {
+    padding-top: 56px;
+    .title {
+        text-align: center;
+    }
+    &-block {
+        width: 60%;
+        margin: 15px auto 0;
+        background-color: var(--el-grey);
+        text-align: center;
+        border-collapse: collapse;
+        &-img {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        tr {
+            th {
+                padding: 16px 0 10px;
+                border-bottom: 1px solid #000;
+            }
+            td {
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 32px;
+                padding: 10px 0;
+            }
+        }
+    }
+}
